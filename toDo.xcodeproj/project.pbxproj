@@ -56,15 +56,39 @@
 		ECDEB37A281473E600EE9AB1 /* toDo */ = {
 			isa = PBXGroup;
 			children = (
+				ECDEB3922814766700EE9AB1 /* Model */,
+				ECDEB3912814765A00EE9AB1 /* Controller */,
+				ECDEB3902814764A00EE9AB1 /* View */,
 				ECDEB37B281473E700EE9AB1 /* AppDelegate.swift */,
 				ECDEB37D281473E700EE9AB1 /* SceneDelegate.swift */,
-				ECDEB37F281473E700EE9AB1 /* ViewController.swift */,
-				ECDEB381281473E700EE9AB1 /* Main.storyboard */,
 				ECDEB384281473F600EE9AB1 /* Assets.xcassets */,
 				ECDEB386281473F600EE9AB1 /* LaunchScreen.storyboard */,
 				ECDEB389281473F600EE9AB1 /* Info.plist */,
 			);
 			path = toDo;
+			sourceTree = "<group>";
+		};
+		ECDEB3902814764A00EE9AB1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				ECDEB381281473E700EE9AB1 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		ECDEB3912814765A00EE9AB1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				ECDEB37F281473E700EE9AB1 /* ViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		ECDEB3922814766700EE9AB1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
